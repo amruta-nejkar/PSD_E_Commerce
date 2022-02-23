@@ -1,0 +1,546 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.wrap{
+    margin: 0 auto;
+    max-width: 100%;
+    /* background: url("../images/banner_img.png");
+    height: 530px; */
+}
+.header_banner{
+    background-image: url("../images/banner_img.png");
+    height: 500px;
+}
+
+header#header{
+    /* left: 0;
+    top:0 */
+}
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+ .logo{
+    float: left;
+    margin-right: 135px;
+     width:175px;
+     height: 78px;
+}
+ .logo img{
+    width: 160px;
+    height: 43px;
+    margin-top: 20px;   
+}
+.right_header{
+    display: flex;
+}
+nav{
+  
+}
+ul{
+   
+    display: flex;
+    padding: 27px 0px 0px 176px;
+
+}
+li{
+    margin-right: 20px;
+    list-style: none;
+    margin-left: 20px;
+   
+
+}
+li a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+li a:hover{
+    color:  #F30E0E;
+}
+li a .search_img{
+    width:25px;
+}
+.btn{
+    background-color: #F30E0E;
+    width:150px;
+    padding: 5px 10px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.btn:hover{
+    background-color: #FFFFFF;
+    color: #F30E0E;
+}
+.btn img{
+    width:25px;
+}
+
+/* banner */
+#banner {
+
+}
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0px;
+   
+}
+.left_side{
+    margin-top: 60px;
+    /* margin-left: 72px; */
+    
+}
+p.sub_title{
+    color:#FFFFFF;
+    font-size: 20px;
+    font-weight: 500px;
+    position: relative;  
+    top:0px;
+    left: 4px; 
+ }
+
+.left_side p.sub_title::before {
+    position: absolute;
+    margin-right: 10px;
+        height: 40px;
+        width: 4px;
+        left: 48px;
+        top: 13px;
+        content: '';
+        background: linear-gradient(
+    180deg, #FFE11A 0%, #FE0000 112.5%);
+        transform: rotate(
+    0.35deg);
+        display: inline-block;
+ }
+
+ .left_side h1{
+     color: #FFFFFF;
+     font-size: 40px;
+     padding-left: 50px;
+     padding-top: 15px;
+
+ }
+ .left_side p{
+    color: #FFFFFF;
+    font-weight: 300;
+    margin-bottom: 10px;
+   padding-left: 50px;
+   padding-top: 20px;
+   margin-bottom: 30px;
+
+ }
+.left_side p span{
+    display: block;
+    
+}
+
+.btn_lets{
+    background-color: #F30E0E;
+    padding: 5px 15px;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding-left: 20px;
+    margin-left: 20px;
+    font-weight: 300px;
+
+}
+.btn_lets:hover{
+    background-color: #FFFFFF;
+    color: #F30E0E;
+    
+}
+.btn_img{
+    width:40px;
+    padding-left: 8px;
+    height: 10px;
+}
+/* banner End */
+
+/* list menu */
+
+#list_menu{
+    /* margin-top: 114px; */
+    /* width: 100%; */
+    /* height: 50px; */
+
+}
+.container{
+    margin: 0 auto;
+    max-width: 1170px;
+}
+.list{
+    /* margin-top: 70px; */
+}
+ .list ul .service_list{
+    display: flex;
+    list-style: none;
+}
+.list ul li {
+    /* margin-top: 15px; */
+} 
+.list ul li a{
+    font-size: 10px;
+    color:  #646464;
+    text-decoration: none;
+   font-weight: 500;
+}
+
+/* div.wrap section#list_menu{
+    margin-top: 114px;
+    width: 100%;
+    height: 50px;
+   
+}
+div.wrap section#list_menu div.container{
+    max-width: 1100px;
+    margin: 0 auto;
+
+}
+div.wrap section#list_menu div.container div.list{
+    margin-top: 145px;
+    
+   
+}
+div.wrap section#list_menu div.container div.list ul{
+    display: flex;
+    list-style: none;
+    font-weight: bold;
+    font-size: 10px;
+    
+}
+div.wrap section#list_menu div.container div.list ul li {
+  margin-top: 15px;
+   margin-left: 50px;
+  
+   
+
+}
+div.wrap section#list_menu div.container div.list ul li a{
+    color:  #646464;
+    text-decoration: none;
+   
+
+}
+div.wrap section#list_menu div.container div.list ul li a:hover{
+    color: #F80000;
+    
+}
+div.wrap section#list_menu div.container div.list ul li a.active{
+    color: #F80000;
+    border-bottom: 2px solid #F80000;
+    padding-bottom: 14px;
+}
+div.wrap section#list_menu div.container div.list ul li a img{
+    height: 25px;
+} */
+
+/* 
+div.wrap section#tech{
+   
+}
+div.wrap section#tech div.container{
+    width: 1100px;
+    margin: 0 auto;
+}
+div.wrap section#tech div.container div.technology{
+
+}
+div.wrap section#tech div.container div.technology h1{
+    color: #1F1F1F;
+    text-transform: capitalize;
+    font-weight: 500;
+    text-align: center;
+    font-size: 32px;
+   
+    
+}
+div.wrap section#tech div.container div.technology img{
+   margin-left: 500px;
+   height: 3px;
+   width: 50px;
+}
+div.wrap section#tech div.container div.technology p{
+    color:#1F1F1F;
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 15px;
+   margin-top: 20px;
+}
+
+div.wrap section#tech div.container div.technology div.btn_tech {
+    margin-left: 200px;
+
+}
+div.wrap section#tech div.container div.technology div.btn_tech button{
+  
+   background-color: #FFFFFF;
+   border:2px solid #F80000;
+  height: 35px;
+  width:150px;
+  color:#F80000;
+  font-weight: 500px;
+
+  margin-top: 30px;
+  margin-left: 275px;
+   
+}
+div.wrap section#tech div.container div.technology div.btn_tech button:hover{
+  
+    color: #FFFFFF;
+    background-color: #F80000;
+    font-weight: 500px;
+
+
+}
+
+div.wrap section#tech div.container div.technology div.btn_tech button img{
+  
+    width: 30px;
+    height: 7px;
+    position: relative;
+    margin-left: 10px;
+    vertical-align: inherit;
+    
+}
+div.wrap section#tech div.container div.technology div.btn_tech button .btn_img{
+    margin-left: 30px;
+    width: auto;
+    height: 7px;
+    position: relative;
+    margin-left: 10px;
+    vertical-align: inherit
+} */
+
+ /* Our Solutions for E-commerce  */
+ div.wrap section#our_sol {
+
+ }
+ div.wrap section#our_sol div.container{
+    max-width: 1100px;
+     margin: 0 auto;
+     overflow: hidden;
+   
+ }
+ div.wrap section#our_sol div.container div.banner_head {
+     /* position: relative; */
+ }
+
+ div.wrap section#our_sol div.container div.banner_head h1{
+margin-top: 60px;
+text-align: center;
+text-transform: capitalize;
+font-size: 32px;
+color:#3D3D3D;
+font-weight: 500;
+
+ }
+ div.wrap section#our_sol div.container div.banner_head img{
+    height: 3px;
+    width: 50px;
+    margin-top: 20px;
+    margin-left: 530px;
+    margin-top: 8px;
+    /* position: absolute; */
+    
+
+ }
+ div.wrap section#our_sol div.container div.cards{
+     display: flex;
+     background-color: #FCFCFC;
+     margin-top: 25px;
+    
+ }
+ /* card one */
+ div.wrap section#our_sol div.container div.cards div.card_one{
+    border: 1px solid #CECECE;
+    width: 300px;
+    height: 260px;
+    margin-right: 25px;
+    box-shadow: 0 0 8px #c7c7c7;
+
+ }
+ div.wrap section#our_sol div.container div.cards div.card_one:hover{
+     background-color:#fcf7f7;
+ }
+ /* div.wrap section#our_sol div.container div.cards div.card_one:hover{
+     color: red;
+ } */
+ div.wrap section#our_sol div.container div.cards div.card_one h3{
+     flex-direction: column;
+     font-size: 15px;
+     color:  #3D3D3D;
+     text-transform: capitalize;
+     /* font-weight: 500; */
+     text-align: left;
+     padding-left: 20px;
+     padding-top: 30px;
+ }
+ div.wrap section#our_sol div.container div.cards div.card_one p{
+     color: #838383;
+     text-align: left;
+     text-transform: capitalize;
+     font-size: 12px;
+     padding-left: 20px;
+     padding-top: 10px;
+ }
+ div.wrap section#our_sol div.container div.cards div.card_one h6{
+     padding-left: 20px;
+     color: #FF5959;
+     /* background-color:  #FCFCFC; */
+     padding-top: 20px;
+
+ }
+ div.wrap section#our_sol div.container div.cards div.card_one h6 img{
+    width: 25px;
+    margin-left: 15px;  
+ }
+ div.wrap section#our_sol div.container div.cards div.card_one .card_one_txt{
+    margin-top: 18px;
+ }
+ div.wrap section#our_sol div.container div.cards div.card_one .card_one_para{
+     margin-top: 22px;
+ }
+ div.wrap section#our_sol div.container div.cards .side_img{
+     height: 50px;
+     margin-top: 100px;
+     margin-left: -49px;
+
+}
+
+/* solution */
+div.wrap section#solution {
+
+}
+div.wrap section#solution div.container{
+    max-width: 1100px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+div.wrap section#solution div.container h1{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 32px;
+    font-weight: 500;
+}
+div.wrap section#solution div.container img{
+    margin-left: 525px;
+    width: 50px;
+    height: 3px;
+    margin-bottom: 13px;
+}
+div.wrap section#solution div.container h5{
+    text-align: center;
+    font-size: 18px;
+    color:#3D3D3D;
+    margin-top: -7px;
+}
+div.wrap section#solution div.container div.card_solution{
+    display: flex;
+    margin-top: 30px;
+    
+}
+div.wrap section#solution div.container div.card_solution div.card_sol_one{
+    /* width:350px; */
+    height: 420px;
+    border: 2px solid #CECECE;
+    flex-direction: row;
+    margin-right: 17px;
+    /* border:1px solid black; */
+    box-shadow: 0 0 8px #c7c7c7;
+   
+}
+
+div.wrap section#solution div.container div.card_solution div.card_sol_one img{
+    width:350px;
+    height: 300px;
+    margin-left: 0;
+    margin-top: -39px;
+    
+}
+div.wrap section#solution div.container div.card_solution div.card_sol_one h3{
+    color:#3D3D3D ;
+    font-size: 18px;
+    margin-top: -24px;
+    padding-left: 20px;
+}
+div.wrap section#solution div.container div.card_solution div.card_sol_one p{
+    color: #000000;
+    font-size: 12px;
+    margin-top: 15px;
+    padding-left: 20px;
+
+
+}
+div.wrap section#solution div.container div.card_solution div.card_sol_one h6{
+    color:  #FF3434;
+    font-size: 10px;
+    padding-left: 20px;
+    margin-top: 25px;
+
+}
+div.wrap section#solution div.container div.card_solution div.card_sol_one h6 .arrow{
+    height: 6px;
+    width: 25px;
+   margin-left: 10px;
+   font-size: 15px;
+   margin-bottom: 0px;
+}
+
+/* Our Capabilities  */
+
+div.wrap section#capabilities{
+
+}
+div.wrap section#capabilities div.container{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+div.wrap section#capabilities div.container h1{
+    text-align: center;
+    font-size: 32px;
+    margin-top: 70px;
+    font-weight: 500;
+}
+div.wrap section#capabilities div.container img{
+    margin-left: 525px;
+    width: 50px;
+    height: 3px;
+    margin-bottom: 13p
+
+}
+div.wrap section#capabilities div.container h6{
+    color: #3D3D3D;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* cards */
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
