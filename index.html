@@ -13,10 +13,16 @@
         href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
 
-
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+        integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css"
+        integrity="sha512-6lLUdeQ5uheMFbWm3CP271l14RsX1xtx+J5x2yeIDkkiBpeVTNhTqijME7GgRKKi6hCqovwCoBTlRBEC20M8Mg=="
+        crossorigin="anonymous" />
 
-</head>
+
 
 <body>
     <div class="wrap">
@@ -29,7 +35,7 @@
                             <a href=""><img class="logo" src="./assets/images/logo_successive.svg" alt="logo"></a>
                         </div>
                         <nav>
-                            <ul>
+                            <ul class="nav">
                                 <li><a href="#"><img class="search_img" src="./assets/images/search_icon.svg"
                                             alt="search_icon"></a></li>
                                 <li><a href="#">Services</a></li>
@@ -55,7 +61,6 @@
                         </p> -->
                         <a href="#" class="btn_lets">Lets Talk<img class="btn_img" src="./assets/images/arrow_white.png"
                                 alt="arrow_img">
-                            <!-- <img class="btn_img" src="./assets/images/arroe_red.png" alt="arrow"> -->
                         </a>
                     </div>
                 </div>
@@ -67,55 +72,56 @@
             <div class="container">
                 <div class="list">
                     <ul class="service_list">
-                        <li><a href="#">E-commerce</a></li>
-                        <li><a href="#" class="active">Introduction</a></li>
-                        <li><a href="#">Solutions</a></li>
-                        <li><a href="#">Capabilities</a></li>
-                        <li><a href="#">Why Choose Us</a></li>
-                        <li><a href="#">Our Work</a></li>
-                        <li><a href="#">Successive Stories</a></li>
-                        <li><a href="#">Insights</a></li>
+                        <li class="sub_list"><a href="#" class="service">E-commerce</a></li>
+                        <li><a href="#" class="service active">Introduction</a></li>
+                        <li><a href="#" class="service">Solutions</a></li>
+                        <li><a href="#" class="service">Capabilities</a></li>
+                        <li><a href="#" class="service">Why Choose Us</a></li>
+                        <li><a href="#" class="service">Our Work</a></li>
+                        <li><a href="#" class="service">Successive Stories</a></li>
+                        <li><a href="#" class="service">Insights</a></li>
                     </ul>
                 </div>
             </div>
         </section>
         <!-- list_menu End -->
         <!-- E-commerence Technology -->
-        <!-- <section id="tech">
+        <section id="tech">
             <div class="container">
                 <div class="technology">
-                    <h1>E-Commerce Technology</h1>
-                    <img src="./assets/images/Rectangle 46.png" alt="">
-                    <p>Retail is now moving online at a rapid pace.<br /> E-commerce accounts for more than 15% of the
-                        <br />total retail revenue globally. As more and more<br /> brands and retailers push their
-                        operations online.
-                    </p>
-                    <div class="btn_tech"><button>Lets Talk<img src="./assets/images/Arrow 41 (2).png" alt="">
-                             <img class="btn_img" src="./assets/images/Arrow 41.png" alt=""> -->
-         <!-- </button>
-                    </div>
+                    <h1 class="main_heading">E-Commerce Technology<h1>
+
+                            <p>Retail is now moving online at a rapid pace.<span> E-commerce accounts for more than 15%
+                                    of the
+                                </span>total retail revenue globally. As more and more<span> brands and retailers push
+                                    their
+                                    operations online.</span>
+                            </p>
+                            <div class="btn_tech">
+                                <a href="" class="btn_one">Lets Talk<img src="./assets/images/arroe_red.png" alt="">
+                                    <!-- <img class="btn_img" src="./assets/images/arrow_white.png" alt="">  -->
+                                </a>
+                            </div>
 
                 </div>
             </div>
-        </section>  -->
+        </section>
         <!-- Our Solutions for E-commerce  -->
-        <!-- <section id="our_sol">
+        <section id="our_sol">
             <div class="container">
                 <div class="banner_head">
-                    <h1>Our Solutions for<br /> E-commerce</h1>
-                    <img src="./assets/images/Rectangle 46.png" alt="">
-                </div> -->
-
-        <!-- cards -->
-        <!-- <div class="cards">
+                    <h1>Our Solutions for E-commerce</h1>
+                </div>
+                <!-- cards -->
+                <div class="cards">
                     <div class="card_one">
-                        <h3>Dropshipping <br />management</h3>
-                        <p>Manage the hassles <br />related with<br /> dropshipping with ease<br /> by integrating data
-                            <br />driven systems
-                            with your <br />e-commerce store.
+                        <h3>Dropshipping <span>management</span></h3>
+                        <p>Manage the hassles <span>related with</span> dropshipping with ease<span> by integrating data
+                                <span>driven systems
+                                    with your <br />e-commerce store.
                         </p>
 
-                        <h6>Lets Talk <img src="./assets/images/Arrow 41 (3).png" alt=""></h6>
+                        <h6>Lets Talk <a href="#"><img src="./assets/images/arroe_red.png" alt="arrow"></a></h6>
 
                     </div>
 
@@ -125,7 +131,8 @@
                             <br />reduce lag in processing <br />orders.
                         </p>
 
-                        <h6 class="card_one_txt">Lets Talk <img src="./assets/images/Arrow 41 (3).png" alt=""></h6>
+                        <h6 class="card_one_txt">Lets Talk <a href="#"><img src="./assets/images/arroe_red.png"
+                                    alt="arrow"></a> </h6>
 
                     </div>
 
@@ -135,7 +142,7 @@
                             manage <br />customer
                             requests and <br />reduce time in resolving<br /> issues.</p>
 
-                        <h6>Lets Talk <img src="./assets/images/Arrow 41 (3).png" alt=""></h6>
+                        <h6>Lets Talk <a href=""><img src="./assets/images/arroe_red.png" alt="arrow"></a></h6>
 
                     </div>
 
@@ -144,64 +151,379 @@
                         <p>Track orders, reverse <br />orders, manage <br />workforce and keep your<br /> operations
                             running<br /> smoothly to maintain <br />and scale revenue.</p>
 
-                        <h6>Lets Talk <img src="./assets/images/Arrow 41 (3).png" alt=""></h6>
+                        <h6>Lets Talk <a href=""><img src="./assets/images/arroe_red.png" alt="arrow"></a></h6>
 
                     </div>
-                    <img class="side_img" src="./assets/images/Group 220.png" alt="">
+                    <div class="card_one">
+                        <h3>Logistics<br /> Management</h3>
+                        <p>Track orders, reverse <br />orders, manage <br />workforce and keep your<br /> operations
+                            running<br /> smoothly to maintain <br />and scale revenue.</p>
 
+                        <h6>Lets Talk <a href=""><img src="./assets/images/arroe_red.png" alt="arrow"></a></h6>
+
+                    </div>
+                    <div class="card_one">
+                        <h3>Logistics<br /> Management</h3>
+                        <p>Track orders, reverse <br />orders, manage <br />workforce and keep your<br /> operations
+                            running<br /> smoothly to maintain <br />and scale revenue.</p>
+
+                        <h6>Lets Talk <a href=""><img src="./assets/images/arroe_red.png" alt="arrow"></a></h6>
+
+                    </div>
                 </div>
+
             </div>
-        </section> -->
+        </section>
         <!-- end Our Solutions for E-commerce - -->
         <!-- Solution start -->
 
-        <!-- <section id="solution">
+        <section id="solution">
             <div class="container">
-                <h1>Solutions</h1>
-                <img src="./assets/images/Rectangle 46.png" alt="">
-                <h5>Explore Our Solutions</h5>
+                <div class="sub_title_solution">
+                    <h1>Solutions</h1>
+                    <img src="./assets/images/Rectangle 46.png" alt="">
+                    <h5>Explore Our Solutions</h5>
+                </div>
 
                 <div class="card_solution">
                     <div class="card_sol_one">
                         <img src="./assets/images/Rectangle 139.svg" alt="">
                         <h3>Dropshipping management</h3>
-                        <p>Lorem Ipsum is simply dummy text <br />of the printing and typesetting <br />industry.</p>
-                        <h6>Read More <img class="arrow" src="./assets/images/Arrow 41 (3).png" alt=""></h6>
+                        <p>Lorem Ipsum is simply dummy text <span>of the printing and typesetting</span> industry.</p>
+                        <h6>Read More <a href="#"><img class="arrow" src="./assets/images/arroe_red.png"
+                                    alt="arrow"></a></h6>
                     </div>
 
                     <div class="card_sol_one">
                         <img src="./assets/images/Rectangle 307.svg" alt="">
                         <h3>Inventory Management</h3>
-                        <p>Lorem Ipsum is simply dummy text <br />of the printing and typesetting <br />industry.</p>
-                        <h6>Read More <img class="arrow" src="./assets/images/Arrow 41 (3).png" alt=""></h6>
+                        <p>Lorem Ipsum is simply dummy text <span>of the printing and typesetting </span>industry.</p>
+                        <h6>Read More <a href="#"><img class="arrow" src="./assets/images/arroe_red.png "
+                                    alt="arrow"></a></h6>
                     </div>
 
                     <div class="card_sol_one">
                         <img src="./assets/images/Rectangle 305.svg" alt="">
                         <h3>Customer Support</h3>
-                        <p>Lorem Ipsum is simply dummy text <br />of the printing and typesetting <br />industry.</p>
-                        <h6>Read More <img class="arrow" src="./assets/images/Arrow 41 (3).png" alt=""></h6>
+                        <p>Lorem Ipsum is simply dummy text <span>of the printing and typesetting <span>industry.</p>
+                        <h6>Read More <a href="#"><img class="arrow" src="./assets/images/arroe_red.png"
+                                    alt="arrow"></a></h6>
                     </div>
                 </div>
             </div>
 
-        </section> -->
+        </section>
+
         <!--  Solution End -->
 
-        <!-- Our Capabilities -->
-        <!-- <section id="capabilities">
+        <!-- Start Our Capabilities -->
+        <section id="capabilities">
             <div class="container">
-                <h1> Our Capabilities </h1>
-                <img src="./assets/images/Rectangle 46.png" alt="">
-                <h6>We provide tailor made and customized solution</h6>
+                <div class="our_capabilities">
+                    <h1> Our Capabilities </h1>
+                    <h6>We provide tailor made and customized solution</h6>
+                </div>
+                <!-- Our Capabilities Cards -->
+                <div class="our_capabilities_cards">
+                    <div class="our_capabilities_card_one">
+                        <a href="#"><img src="./assets/images/card_one.svg" alt="card_one_img"></a>
+                        <h3>E-Commerce App <span> Development </span></h3>
+                        <p>Cross platforms apps<span> development with </span>flutter,react.</p>
+                    </div>
+                    <div class="our_capabilities_card_one">
+                        <a href="#"><img src="./assets/images/card_one.svg" alt="card_two_img"></a>
+                        <h3>E-Commerce Back <span>End Development</span>
+                        </h3>
+                        <p>Native platforms apps <span>development for android,</span>IOS and Windows.</p>
+                    </div>
+                    <div class="our_capabilities_card_one">
+                        <a href="#"><img src="./assets/images/card_three.svg" alt="card_three_img"></a>
+                        <h3>E-Commerce Plugin<span> Development</sapn>
+                        </h3>
+                        <p>Custom mobile app <span>solution for your unique </span>business needs. </p>
+                    </div>
+                    <div class="our_capabilities_card_one">
+                        <a href="#"><img src="./assets/images/card_four.svg" alt="card_four_img"></a>
+                        <h3>Customer Service <span>System <span></h3>
+                        <p>Enterprise Apps <span>development solution <span>for your business.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--  End Our Capabilities-->
+        <!-- Start Ecommerce solutions -->
+        <section id="ecommerce_solutions ">
+            <div class="container">
+                <div class="ecommerce">
+                    <h1>Ecommerce solutions</h1>
+                    <h3>We build custom Excommerce platforms comprising of modules</h3>
+                    <p>Retail is now moving online at a rapid pace. E-commerce <span>accounts for more than 15% of the
+                            total retail revenue globally. </span></p>
+                    <a href="#" class="btn">Lets Talk<img src="./assets/images/arrow_white.png" alt="arrow"></a>
+                </div>
+                <div class="ecommerce_cards">
+                    <div class="card_list">
+                        <ul class="ecommerce_list">
+                            <li>Product management</li>
+                            <li>Logistics Management</li>
+                            <li>Dropshipping management</li>
+                            <li>Complex de-duplication and aggregation algorithms</li>
+                        </ul>
+                    </div>
+                    <div class="card_list">
+                        <ul class="ecommerce_list">
+                            <li>Product management</li>
+                            <li>Logistics Management</li>
+                            <li>Dropshipping management</li>
+                            <li>Complex de-duplication and aggregation algorithms</li>
+                        </ul>
+                    </div>
+                    <div class="card_list">
+                        <ul class="ecommerce_list">
+                            <li>Product management</li>
+                            <li>Logistics Management</li>
+                            <li>Dropshipping management</li>
+                            <li>Complex de-duplication and aggregation algorithms</li>
+                        </ul>
+                    </div>
 
+                </div>
+            </div>
+        </section>
+        <!-- End Ecommerce solutions  -->
+        <!-- Start of Banner -->
+        <section id="banner_two">
+            <div class="container">
+                <div class="title_ecommerce">
+                    <div class="sub_titles">
+                        <p>Years Of experience</p>
+                    </div>
+                    <div class="sub_titles">
+                        <p>Client Growth</p>
+                    </div>
+                    <div class="sub_titles">
+                        <p>Projects Delivered</p>
+                    </div>
+                </div>
+                <div class="numbers_para">
+                    <p class="number_one">19</p>
+                    <p class="number_one">72%</p>
+                    <p class="number_three">19</p>
 
+                </div>
+                <div class="sub_paragraph">
+                    <p class="paragraph">Core Expertise & domain Experience</p>
+                    <p class="paragraph">rise in clients ecommerce platform</p>
+                    <p class="paragraph_three">Ecommerce Projects delivered</p>
+                </div>
+            </div>
+    </div>
+    </div>
+    </section>
+    <!-- End of Banner -->
+    <!-- Start our work section -->
+    <section id="our_work">
+        <div class="container">
+            <div class="our_work">
+                <h2>our work</h2>
+                <p>Case studies of ecommerce</p>
+            </div>
+            <div class="our_work_crads">
+                <!-- <a href="#"> See All<img src="./assets/images/arroe_red.png" alt="arrow"></a> -->
+                <div class="our_work_card_one">
+                    <a href="#"><img src="./assets/images/our_work_one.svg" alt="card_one_img"></a>
+                    <h4>Enterprise App case study</h4>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    <h6>Read more <a href="#"><img src="./assets/images/arroe_red.png" alt="arrow"></a></h6>
+                </div>
+                <div class="our_work_card_one">
+                    <a href="#"><img src="./assets/images/our_work_two.svg" alt="card_two_img"></a>
+                    <h4>Enterprise App case study</h4>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    <h6>Read more <a href="#"><img src="./assets/images/arroe_red.png" alt="arrow"></a></h6>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END our work section -->
+
+    <section id="banner_three">
+        <div class="container">
+            <div class="info_of_banner">
+                <h2>Get your free consultation today</h2>
+                <h6>Ready to turn heads ? talk with our experts</h6>
+                <a href="#">Get Consultation Now <img src="./assets/images/arrow_white.png" alt="arrow"></a>
 
             </div>
+        </div>
+    </section>
+    <!-- banner start -->
+    <!-- success stories section start -->
+    <section id="stories">
 
-        </section> -->
+        <div class="container">
+            <div class="success_stories">
+                <h2>Success Stories </h2>
+                <div class="stories_wrap">
+                    <div class="stories_left">
+                        <h3 class="stories_heading">Logics LLC, USA</h3>
+                        <p class="stories_para">“ We have been continually working with technology experts at
+                            Successive. I appreciate them looking at our infrastructure to provide suggestions and I’m
+                            very impressed with their growth in recent years. “</p>
+                        <h5>Mike<span class="stories_position">( Founder & CEO )</span></h5>
+                        <div class="carousel">
+                            <ul class="sticks_dots">
+                                <li class="dots"><a href="#"></a></li>
+                                <li class="dots"><a href="#"></a></li>
+                                <li class="dots"><a href="#"></a></li>
+                            </ul>
+                        </div>
+
+                    </div>
+                    <div class="stories_right">
+                        <img src="./assets/images/success_img.svg" alt="vedioIMAG">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- success stories section end -->
+    <!-- start section good company  -->
+    <section id="banner_company">
+        <div class="container">
+            <div class="content">
+                <h3>You will be in a good company</h3>
+                <p>Clients we worked with</p>
+            </div>
+            <div class="clients">
+                <a href="#"><img src="./assets/images/dentsu.svg" alt="img"></a>
+                <a href="#"><img src="./assets/images/google.png" alt="img"></a>
+                <a href="#"><img src="./assets/images/mahindra.svg" alt="img"></a>
+                <a href="#"><img src="./assets/images/deloitte.svg" alt="img"></a>
+                <a href="#"><img src="./assets/images/adobe.svg" alt="img"></a>
+            </div>
+        </div>
+    </section>
+   <!-- End section good company  -->
+   <!-- start banner Ready to talk -->
+   <section id="ready_talk_banner">
+    <div class="container">
+        <div class="content_information">
+    <div class="information_left">
+        <h3>Ready to talk?</h2>
+        <h5>I want to talk to your experts in :</h5>
+        <a class="ready_talk dropdown_menu">Select Industry&nbsp;&nbsp; <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+    </div>
+    <div class="information_right">
+        <p >Lorem Ipsum is simply dummy text of the printing typesetting industry.</p>
+        <input class="text_email" type="email" placeholder="Email-id"/>
+        <a class="btn_main ready">Lets Talk  
+            <img src="./assets/images/arrow_white.png" />
+        </a>
+    </div>
+    </div>
+    </div>
+        </section>
+   <!-- end banner Ready to talk  -->
+   <footer id="footer_section">
+       <div class="container">
+           <div class="wrapper">
+           <div class="footer_wrap">
+               <a href="#"><img src="./assets/images/logo_successive.svg" alt="logo"></a>
+               <ul class="ul_footer">
+                   <li class="li_footer"><a href="#"class="one active_li" >India</a></li>
+                   <li class="li_footer"><a href="#">USA</a></li>
+                   <li class="li_footer"><a href="#">Norway</a></li>
+                   <li class="li_footer"><a href="#">NZ</a></li>
+                   <li class="li_footer"><a href="#">SA</a></li>
+               </ul>
+               <address>
+                <i class="fa fa-map-marker" aria-hidden="true"></i>
+                E-29, Sector-11,
+                Noida-201301, INDIA
+                Tel: +91-120-426-9272
+               </address>
+           </div>
+            <div class="imp_links">
+               <h6>Imp Links</h6>
+               <ul class="imp_links_ul">
+                   <li class="link_li"><a href="#" class="imp_links_li">Services <span>About us</span></a></li>
+                   <li class="link_li"><a href="#" class="imp_links_li">Industries<span class="span_two">Contact Us</span></a></li>
+                   <li class="link_li"><a href="#">Careers</a></li>
+                   <li class="link_li"><a href="#">Case Studies</a></li>
+                   <li class="link_li"><a href="#">Capabilities</a></li>
+               </ul>
+           </div>
+           <div class="right_side_footer">
+              <p>Subscribe to our newsletter</p>
+            <input class="text_email_one" type="email" placeholder="Email-id"/>
+            <a class="btn_main_ready btn_footer">Lets Talk  
+                <img src="./assets/images/arrow_white.png" />
+            </a>
+            <div class="icons_footer">
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+                <i class="fa fa-instagram" aria-hidden="true"></i>
+                <i class="fa fa-linkedin" aria-hidden="true"></i>
+                <i class="fa fa-dribbble" aria-hidden="true"></i>
+            </div>
+           </div>
+        </div>
+       </div>
+       <div class="bottom_footer">
+           <p>All Right Reserved 2020 @Successive Technologies</p>
+       </div>
+
+   </footer>
+
+
 
     </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+        integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+        crossorigin="anonymous"></script>
+    <script>
+
+        $('.cards').slick({
+            dots: false,
+            infinite: false,
+            speed: 300,
+            slidesToShow: 4,
+            slidesToScroll: 4,
+            //   responsive: [
+            //     {
+            //       breakpoint: 1024,
+            //       settings: {
+            //         slidesToShow: 3,
+            //         slidesToScroll: 3,
+            //         infinite: true,
+            //         dots: true
+            //       }
+            //     },
+            //     {
+            //       breakpoint: 600,
+            //       settings: {
+            //         slidesToShow: 2,
+            //         slidesToScroll: 2
+            //       }
+            //     },
+            //     {
+            //       breakpoint: 480,
+            //       settings: {
+            //         slidesToShow: 1,
+            //         slidesToScroll: 1
+            //       }
+            //     }
+            // You can unslick at a given breakpoint now by adding:
+            // settings: "unslick"
+            // instead of a settings object
+            //   ]
+        });
+    </script>
 
 </body>
 
